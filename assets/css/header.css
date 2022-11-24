@@ -7,12 +7,37 @@
 }
 .inDiv1{
     display: flex;
-    margin-top: 20px;
+    margin-top: 22px;
     margin-left: 30px;
 }
-img{
+.inDiv1 img{
     height: 18px;
     margin-left: 25px;
+}
+.inDiv2{
+    display: flex;
+    margin-top: 18px;
+    margin-right: 30px;
+    
+}
+.inDiv2 img{
+    height: 40px;
+    margin-top: -8px;
+}
+.inDiv2 div{
+    margin-right: 40px;
+}
+.inDiv2 i{
+    margin-top: 5px;
+}
+button{
+    padding: 0 5px 0  5px;
+    border-radius: 4px;
+    border: 0.5px solid skyblue;
+    color: skyblue;
+    margin-top: 2px;
+    
+
 }
 
 
