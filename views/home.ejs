@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="/css/home.css">
+
+<body>
+    <%-include("header.ejs")-%>
+    
+    <div id="container">
+        <h1>LogIn</h1>
+        <form action="/create-session" method="post">
+            <div class="inputBox">
+                <input type="email" name="email" required>
+                <span></span>
+                <label>Username</label>
+            </div>
+            <div class="InputBox">
+                <input type="password" name="password" required>
+                <span></span>
+                <label>Password</label>
+            </div>
+            <div class="pass">
+                <a href="#"> Forgot Passwaord?</a>
+
+            </div>
+            <input type="submit" value="Sign-in">
+            <div class="signup_link">
+                <h3>Not a member ? <a href="/sign-up">SignUp</a></h3>
+            </div>
+
+        </form>
+    </div>
+</body>
