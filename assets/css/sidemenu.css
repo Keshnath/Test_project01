@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+        
+}
+#sidemenu{
+    width: 150px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#menudiv{
+   margin-top: 20px;
+   
+}
+#menudiv div{
+    height: 45px;
+    padding: 10px 10px 0 10px;
+    vertical-align: middle;
+    
+}
+#menudiv div:hover{
+    background: skyblue;
+    
+}
+.text{
+    padding-left: 10px;
+}
