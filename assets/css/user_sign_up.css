@@ -30,6 +30,9 @@ body{
   padding: 20px 0;
   border-bottom: 1px solid silver;
 }
+#container p{
+  text-align: center;
+}
 #container form{
   padding: 0 40px;
   box-sizing: border-box;
