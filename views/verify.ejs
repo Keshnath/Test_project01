@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="/css/verify.css">
+
+<body>
+
+    <div id="container">
+        <h3>Verify Code</h3>
+        <p>Code is sent to <%=email %>
+        </p>
+        <form action="/verificationcode" method="post">
+            <div class="inputBox">
+                <input type="text">
+                <span></span>
+                <label>Enter Code Here</label>
+            </div>
+            <input type="submit" value="Verify">
+            &nbsp;
+            <p>Already have account ? <a href="/" style="text-decoration: none; color: black;"><b>Log in</b></a> </p>
+        </form>
+
+    </div>
+</body>

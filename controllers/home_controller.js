@@ -58,6 +58,13 @@ module.exports.logOut = function(req , res,next){
   return res.redirect('/')
 }
 
-
+module.exports.forgot = function(req , res){
+  return res.render('forgot');
+}
+module.exports.verify = function(req,res){
+  return res.render('verify',
+  {email : req.body.email}
+  );
+}
 
 
