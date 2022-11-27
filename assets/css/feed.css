@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 .project-container{
-    width: 100%;
+    width: 98%;
   
     height: 50px;
     display: flex;
@@ -28,7 +28,7 @@
     width: 80px;
     font-size: 1rem;
     margin-top: 9px;
-    background: red;
+    background: green;
     color: white;
 }
 .icon{
@@ -39,6 +39,7 @@
 }
 .txt1{
     margin-top: 13px;
+    width: 45px;
 }
 .project-container div{
     margin-left: 20px;
