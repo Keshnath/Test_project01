@@ -1,14 +1,10 @@
-body{
-    margin: 0;
-    padding: 0;
-        
-}
+
 #sidemenu{
     width: 150px;
-    background: whitesmoke;
+    background: white;
     display: flex;
     flex-direction: column;
-    height: 90vh
+    height: 90vh;
 }
 #menudiv{
    margin-top: 20px;

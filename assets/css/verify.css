@@ -16,7 +16,7 @@ background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(117,87,209,1) 29%,
 #container{
   position: absolute;
   top: 50%;
-  left: 70%;
+  left: 50%;
   /* right:; */
   transform: translate(-50%, -50%);
   width: 400px;

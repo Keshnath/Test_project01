@@ -3,7 +3,7 @@
     height: 64px;
     justify-content: space-between ;
     box-sizing: border-box;
-    background: whitesmoke;    
+    background:white;    
 }
 .inDiv1{
     display: flex;

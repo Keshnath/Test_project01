@@ -1,13 +1,12 @@
 <link rel="stylesheet" href="/css/todo_page.css">
 
 <body>
+
     <%- include("header.ejs") -%>
     <%- include("sidemenu.ejs") -%>
-    <div id="feed">
-        <form action="/project" method="post">
-            <input type="text-box" name="projectname" >
-        </form>
-    </div>
+    <%- include("feed.ejs") -%>
+    
+    
 
 </body>
 

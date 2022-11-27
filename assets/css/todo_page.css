@@ -6,17 +6,9 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-  margin: 0;
-  padding: 0;
   position: relative;
   box-sizing: border-box;
+  background: whitesmoke;
 }
-#feed{
-  position: absolute;
-  border: 1px solid red;
-  height: 90vh;
-  width: 90vw;
-  top:66px;
-  left: 151px
-}
+
 

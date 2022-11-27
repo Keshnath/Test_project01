@@ -1,0 +1,46 @@
+#main-container{
+    position: absolute;
+    top: 90px;
+    left: 180px;
+    /* border: 1px solid black; */
+    min-height: 87vh;
+    min-width: 85vw;
+    box-sizing: border-box;
+}
+.project-container{
+    width: 100%;
+  
+    height: 50px;
+    display: flex;
+    background: white;
+}
+.project-container input[type = "text"]{
+    height: 45px;
+    font-size: 1rem;
+    border: none;
+}
+.project-container input:focus{
+    outline: none;
+
+}
+.project-container div button{
+    height: 33px;
+    width: 80px;
+    font-size: 1rem;
+    margin-top: 9px;
+    background: red;
+    color: white;
+}
+.icon{
+    margin-top: 13px;
+}
+.icon1{
+    margin-top: 18px;
+}
+.txt1{
+    margin-top: 13px;
+}
+.project-container div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
