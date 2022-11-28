@@ -93,17 +93,17 @@ body{
 }
 .calculation{
     height: 40px;
-    /* position: relative; */
+    /* position: absolute; */
     width: 98%;
-    top: 5px;
+    margin-top: 15px;
     display: flex;
     justify-content: space-between;
 }
 .day-area{
     /* border: 1px solid black; */
-    position: relative;
+    /* position: absolute; */
     top: 5px;
-    background: whitesmoke;
+    background:whitesmoke;
     height: 45px;
     width: 98%;
     display: flex;

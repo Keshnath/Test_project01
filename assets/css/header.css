@@ -40,6 +40,24 @@
     
 
 }
-
-
+.profile-dropdown{
+    position: absolute;
+    z-index: 1;
+    top:60px;
+    right: 20px;
+    background: white;
+    display: none;
+}
+.profile-dropdown ul li{
+    list-style: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.profile-dropdown ul li:hover{
+    color: skyblue;
+}
+.profile:hover .profile-dropdown{
+    display: block;
+}
 

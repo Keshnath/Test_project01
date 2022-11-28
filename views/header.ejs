@@ -14,7 +14,21 @@
                 <div> <%= user.name %> &nbsp; Workspace<i class="fa-solid fa-angle-down"></i></div>
                 <div><button id="upgrade">UPGRADE</button></div>
                 <div><i class="fa-solid fa-bell"></i></div>
-                <div><img src="\img\user.png" alt=""> </div>
+                <div class="profile"><img src="\img\user.png" alt=""> 
+                    <div class="profile-dropdown">
+                        <ul>
+                            <li><%= user.name%></li>
+                            <li><p></p><%= user.email%></li>
+                            <hr>
+                            <li>Profile Settings</li>
+                            <li>Dark theme</li>
+                            <li>Download apps</li>
+                            <li>Help</li>
+                            <hr>
+                            <li><div></div><a href="/logOut" style="text-decoration: none; color: black;" >  <span>Logout &nbsp; &nbsp;</span></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
