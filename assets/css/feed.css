@@ -1,3 +1,6 @@
+body{
+    box-sizing: border-box;
+}
 #main-container{
     position: absolute;
     top: 90px;
@@ -6,10 +9,12 @@
     min-height: 87vh;
     min-width: 85vw;
     box-sizing: border-box;
+    
 }
+
 .project-container{
     width: 98%;
-  
+  position: relative;
     height: 50px;
     display: flex;
     background: white;
@@ -33,10 +38,15 @@
 }
 .icon{
     margin-top: 13px;
+
+}
+.icon:hover .drop{
+    display: block;
 }
 .icon1{
     margin-top: 18px;
 }
+
 .txt1{
     margin-top: 13px;
     width: 45px;
@@ -44,4 +54,62 @@
 .project-container div{
     margin-left: 20px;
     margin-right: 20px;
+}
+.drop{
+    display: flex;
+    position: absolute;
+    background: white;
+    top: 50PX;
+    display: none;
+    /* left: 15px; */
+}
+.drop ul li {
+    list-style: none;
+    padding: 5px 10px 5px 10px;
+}
+.drop ul li:hover{
+    background: skyblue;
+
+
+}
+.tag-drop{
+    display: flex;
+    position: absolute;
+    background: white;
+    top: 50PX;
+    right: 160px;
+    display: none;
+}
+.tag-drop ul li{
+    list-style: none;
+    padding: 5px 10px 5px 10px;
+}
+.tag-drop ul li:hover{
+    background: skyblue;
+
+}
+.tag-event:hover .tag-drop{
+    display: block;
+}
+.calculation{
+    height: 40px;
+    /* position: relative; */
+    width: 98%;
+    top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.day-area{
+    /* border: 1px solid black; */
+    position: relative;
+    top: 5px;
+    background: whitesmoke;
+    height: 45px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+.day-area-container{
+    width: 98%;
+    /* border: 1px solid red; */
 }
