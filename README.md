@@ -3,7 +3,7 @@ to run the project on the your pc follow the steps .<br>
 
 1 . download the zip file and extract it on suitable location<br> 
 2 . open the extracted folder in vscode ide .<br> 
-3 . I had uploaded all the dependencies so i dont't this you need to install it again .<br> 
+3 . I have uploaded all the dependencies so you do not have to install it again .<br> 
 4 . mongodb must be install on your pc .<br> 
 5 . now open vscode terminal and write "npm start" and press enter.<br> 
 6 . now server is live on localhost:8000.<br> 
